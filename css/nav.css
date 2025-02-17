@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* shared- style */
+.text_primary {
+  color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* header */
+.header{
+    background-image: url("../images/The Little TRAMP.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    /* background-size:contain; */
+    background-position: top left ,bottom right;
+
+}
+
+
+
+/* nav-style */
+
+.nav_tittle {
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 100px 0px 200px;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* banner style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 35px 0px 200px;
+}
+.banner-content {
+  width: 885px;
+  height: 355px;
+}
+.banner-img {
+  width: 585px;
+  height: 675px;
+}
+
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+}
+.banner-name {
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 30px;
+}
+.banner-description {
+  font-size: 35px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.download{
+    width: 250PX;
+    height: 85PX;
+    margin-right: 30px;
+    margin-top: 60PX;
+   
+}
+
+.contact{
+    width: 250PX;
+    height: 85PX;
+    margin-right: 30px;
+    margin-top: 60PX;
+   
+}

@@ -23,12 +23,26 @@
   border-radius: 5px;
   border: none;
 }
+.second_bg{
+    background-color: #FFF8F3;
+}
+.section_tittle{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Open Sans", serif;
+    color: #181818;
+}
+.section_description{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Open Sans", serif;
+    color: #757575;
+}
 
 /* header */
 .header{
     background-image: url("../images/The Little TRAMP.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    /* background-size:contain; */
     background-position: top left ,bottom right;
 
 }
@@ -106,4 +120,31 @@ nav ul li a {
     margin-right: 30px;
     margin-top: 60PX;
    
+}
+/* main */
+main{
+    max-width: 2400px;
+    margin: 0px auto;
+}
+
+
+/* about section */
+.about{
+    margin-top: 130px;
+    padding: 130px 230px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about_items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.item_tittle{
+    font-size: 30px;
+}
+.item_desc{
+    font-weight: bold;
+    font-size: 25px;
 }

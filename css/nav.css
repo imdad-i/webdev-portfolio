@@ -199,3 +199,27 @@ main{
 .download_cv{
   margin-top: 50px;
 }
+/* footer Styles */
+footer{
+  padding: 130px 200px;
+  display: flex;
+  gap: 100px;
+}
+.footer_column{
+  width: 50%;
+}
+footer textarea, input[type="text"], input[type="email"]{
+  height: 65px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  border: none;
+}
+.social_icons a{
+  margin-right: 20px;
+}
+
+

@@ -166,3 +166,36 @@ main{
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
 }
+/* resume_section */
+.resume{
+  margin: 130px 200px;
+  border-radius: 10px;
+}
+.resume_container{
+  display: flex;
+  gap: 24px;
+}
+.resume hr{
+  margin: 30px 5px;
+}
+.resume_column_tittle{
+  font-size: 35px;
+  color: #474747;
+}
+.experience_tittle{
+  font-size: 25px;
+  color: #474747;
+}
+.experience_subtittle{
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.experience_desc{
+  color: #757575;
+
+}
+.download_cv{
+  margin-top: 50px;
+}
